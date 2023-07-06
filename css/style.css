@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 75px;
+    display: flex;
+    background-color: rgb(47, 46, 46);
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-img {
+    width: 200px;
+}
+
+.items {
+    list-style: none;
+    display: flex;
+
+}
+
+.item-list {
+    padding-right: 10px;
+}
+
+/* banner start */
+.banner-container {
+
+    padding: 10px;
+    height: 100vh;
+    background-image: url("../images/background.png"), linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text {
+    color: white;
+
+}
+
+.heading {
+    font-size: 60px;
+}
+
+.banner-img {
+    width: 250px;
+    height: 250px;
+}
+
+.button {
+    /* background-color: tomato;
+    color: white;
+    margin-top: 20px;
+    padding: 13px, 20px;
+    border: 0;
+    outline: none; */
+
+    margin-top: 20px;
+    padding: 13px 20px;
+    outline: none;
+    background-color: red;
+    border-radius: 3px;
+    border: none;
+    color: white;
+
+}
+
+/* header style end */
+
+.main-container {
+    display: flex;
+    padding: 25px;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin-top: 20px;
+
+}
+
+.section-head {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-img {
+    height: 300px;
+    width: 250px;
+}
+
+.section-text {
+    padding-top: 20px;
+}
+
+.ditels {
+    margin-top: 15px;
+}
+
+/* bos start */
+
+.about-us {
+    /* height: 400px; */
+    margin-top: 20px;
+    background-image: url("../images/background.png"), linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+    ;
+}
+
+
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    height: 70vh;
+    align-items: center;
+    padding: 5px;
+
+}
+
+
+.box-taitel {
+    color: wheat;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+
+}
+
+.box-model {
+    /* margin-top: 10px; */
+    height: 310px;
+    width: 220px;
+    /* border: 2px solid red; */
+    text-align: center;
+    background-color: rgb(23, 23, 23);
+    color: wheat;
+    border-radius: 10px;
+    box-shadow: 4px 2px 105px gray;
+}
+
+.alart {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box-icon {
+    height: 80px;
+    width: 65px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.box-button {
+    background-color: rgb(27, 25, 25);
+    color: wheat;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: 0;
+}
+
+/* footer start  */
+
+.footer {
+    height: 65vh;
+
+    background-color: #0f0e0e;
+    color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0, 50px;
+
+
+}
+
+.logo {
+    width: 140px;
+}
+
+.col-head {
+    margin-bottom: 7px;
+}
+
+hr {
+    width: 60%;
+    color: wheat;
+}
